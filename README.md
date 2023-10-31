@@ -8,4 +8,7 @@ tsc --noEmitOnError file_name.ts
 
 # create a default json for config
 tsc --init
+# cleans up js code 
+tsc --build --clean
+
 
